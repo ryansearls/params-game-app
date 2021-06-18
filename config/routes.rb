@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
  get "/name", controller: "params", action: "name"
 
- get "/guess", controller: "params", action; "guess"
+ get "/guess", controller: "params", action: "guess"
 
 get "/segment_params/:key" => "params#new_params"
 
